@@ -111,7 +111,7 @@ export default async function DetailsPage({ params }) {
 
 
           {/* Right Sidebar */}
-          {/* <Sidebar course={course} /> */}
+          <Sidebar course={course} />
 
         </div>
 
