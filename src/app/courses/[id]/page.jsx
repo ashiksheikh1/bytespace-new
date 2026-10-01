@@ -1,4 +1,4 @@
-import CourseInfo from "@/components/CourseInfo";
+import CourseInfo from "../../../Components/CourseInfo";
 import Sidebar from "@/Components/Sidebar";
 import { courses } from '@/courses';
 

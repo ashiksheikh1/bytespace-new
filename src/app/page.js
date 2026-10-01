@@ -1,4 +1,4 @@
- import Banner from '@/Components/Banner';
+
 import CourseCard from '@/Components/CourseCard';
 import CourseHero from '@/Components/CourseHero';
 // import CourseHero from '@/Components/CourseHero';
@@ -6,7 +6,7 @@ import CreatorCTA from '@/Components/CreatorCTA';
 import LearningPaths from '@/Components/LearningPaths';
 import OurCommunity from '@/Components/OurCommunity';
 import ProfessionalSection from '@/Components/ProfessionalSection';
-import Profile from '@/Components/Profile';
+
 import YourSkills from '@/Components/YourSkills';
 import { courses } from '@/courses';
 
@@ -30,7 +30,7 @@ export default function Home() {
   <ProfessionalSection></ProfessionalSection>
   <CreatorCTA></CreatorCTA>
   <OurCommunity></OurCommunity>
-  <Profile></Profile>
+  
     </div>
   );
 }

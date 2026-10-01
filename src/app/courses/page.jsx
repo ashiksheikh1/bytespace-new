@@ -1,4 +1,4 @@
-import CourseCardAll from '@/Components/CourseCardAll';
+
 import SearchType from '@/Components/SearchType';
 import { courses } from '@/courses';
 

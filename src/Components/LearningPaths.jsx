@@ -12,7 +12,7 @@ const LearningPaths = () => {
                 <h2 className='font-SemiBold text-4xl text-[#040819]'>Explore Diverse Learning Paths at Bytespace</h2>
             <p className='font-normal text-sm text-[#82868E] mt-5'>At Bytespace, we believe in empowering individuals through knowledge. Our diverse range of courses spans various <br /> fields, ensuring there s something for everyone. Unleash your potential and explore our carefully curated categories.</p>
             </div>
-            <div className='flex justify-around items-center font-medium text-xl text-[#242528] my-9 rounded-2xl'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-5 my-9 rounded-2xl  font-medium text-xl text-[#242528] '>
                
    
  <div className="border p-5 rounded-xl">
