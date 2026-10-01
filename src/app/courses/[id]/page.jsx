@@ -1,6 +1,8 @@
-import CourseInfo from "@/components/CourseInfo";
-import Sidebar from "@/Components/Sidebar";
-import { courses } from '@/courses';
+
+import Link from "next/link";
+import CourseInfo from "../../../Components/CourseInfo";
+import Sidebar from "../../../Components/Sidebar";
+import { courses } from '../../../courses';
 
 import { FaRegStar } from "react-icons/fa";
 import { GiLevelEndFlag } from "react-icons/gi";
@@ -87,17 +89,23 @@ export default async function DetailsPage({ params }) {
             {/* Tabs */}
             <div className="flex gap-2 mt-5">
 
+             <Link href="/about">
               <button className="border hover:bg-[#D4FB20] transition-colors duration-500 bg-[#F5F5F6] text-[#4B4C53] text-[16px] font-medium px-4 py-2 rounded-full">
-                Overview
+                About
               </button>
+             </Link>
 
+             <Link href="/lessons">
               <button className="border hover:bg-[#D4FB20] transition-colors duration-500 bg-[#F5F5F6] text-[#4B4C53] text-[16px] font-medium  px-4 py-2 rounded-full">
-                Curriculum
+                Lessons
               </button>
+             </Link>
 
+              <Link href="/reviews">
               <button className="border hover:bg-[#D4FB20] transition-colors duration-500 bg-[#F5F5F6] text-[#4B4C53] text-[16px] font-medium  px-4 py-2 rounded-full">
                 Reviews
               </button>
+              </Link>
 
             </div>
 

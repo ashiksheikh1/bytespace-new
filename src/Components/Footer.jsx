@@ -28,7 +28,7 @@ const Footer = () => {
               our newsletter.
             </label>
 
-            <div className="my-3 flex items-center justify-center gap-3">
+            <div className="my-3 lg:flex items-center justify-center gap-3">
               <Input
                 aria-label="Name"
                 className="w-64"
@@ -37,7 +37,7 @@ const Footer = () => {
 
               <button
                 type="button"
-                className="rounded-2xl bg-[#D4FB20] px-4 py-2 text-[18px] font-medium text-black transition hover:bg-[#c4eb15]"
+                className="rounded-2xl mt-3 bg-[#D4FB20] px-4 py-2 text-[18px] font-medium text-black transition hover:bg-[#c4eb15]"
               >
                 Search
               </button>

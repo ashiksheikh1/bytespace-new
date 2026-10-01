@@ -30,7 +30,7 @@ export default function Home() {
   <ProfessionalSection></ProfessionalSection>
   <CreatorCTA></CreatorCTA>
   <OurCommunity></OurCommunity>
-  <Profile></Profile>
+ 
     </div>
   );
 }

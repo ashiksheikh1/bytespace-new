@@ -4,6 +4,7 @@ import React from "react";
 import Image from "next/image";
 import { Input, Avatar, AvatarGroup } from "@heroui/react";
 import { Person } from "@gravity-ui/icons";
+import banner  from "../image/image.png";
 
 const Banner = () => {
   const assignees = [
@@ -29,8 +30,8 @@ const Banner = () => {
 
   return (
     <section className="relative overflow-hidden bg-[#003BE2] px-4 py-16 md:py-20">
-
       {/* Background decoration */}
+      
       <div className="absolute -left-32 top-20 h-72 w-72 rounded-full bg-blue-400/20 blur-3xl" />
       <div className="absolute -right-32 bottom-0 h-80 w-80 rounded-full bg-[#D4FB20]/10 blur-3xl" />
 
@@ -88,28 +89,15 @@ const Banner = () => {
         <div className="relative mx-auto mt-8 flex justify-center md:mt-4">
 
           {/* Image glow */}
-          <div className="absolute bottom-5 h-40 w-72 rounded-full bg-[#D4FB20]/20 blur-3xl md:w-[450px]" />
+          <div className="z-10 absolute bottom-5 h-40 w-72 rounded-full bg-[#D4FB20]/20 blur-3xl md:w-[450px]" />
 
-          <Image
-            src="/public"
+          <Image src={banner}
             alt="Student learning with laptop"
             width={700}
-            height={500}
-            priority
-            className="
-              relative
-              z-10
-              w-[300px]
-              object-contain
-              drop-shadow-2xl
-              sm:w-[400px]
-              md:w-[500px]
-              lg:w-[580px]
-            "
-          />
+            height={500} />
 
         </div>
-
+<Image src={banner} alt="image" width={200} height={200}   />
 
         {/* ================= STATISTICS ================= */}
         <div className="mt-4 grid grid-cols-1 gap-4 md:grid-cols-3">
