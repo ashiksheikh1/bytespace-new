@@ -1,11 +1,9 @@
 import CourseInfo from "@/components/CourseInfo";
-import CoursesHero from "@/Components/CoursseHero";
-import Sidebar from "@/components/Sidebar";
+import Sidebar from "@/Components/Sidebar";
 import { courses } from '@/courses';
 
 import { FaRegStar } from "react-icons/fa";
 import { GiLevelEndFlag } from "react-icons/gi";
-import { IoTimeOutline } from "react-icons/io5";
 import { MdOutlineManageAccounts } from "react-icons/md";
 
 
